@@ -1,10 +1,16 @@
 {
     "compilerOptions": {
-        "target": "ES5",
-        "module": "ES6",
+        "target": "es5",
+        "module": "es6",
+
+        //"paths": {
+        //    "undici-types": ["./node_modules/undici-types"]
+        //},
+
         "outDir": "./scripts",
         "rootDir": "./",
         "strict": true,
-        "alwaysStrict": true
+        "alwaysStrict": true,
+        
     }
 }
